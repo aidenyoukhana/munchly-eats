@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MunchlyEats needs microphone access for voice ordering. Speak your order and we'll add it to your cart!</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>MunchlyEats uses speech recognition to understand your food orders. Your voice is processed on-device for privacy.</string>
+	<key>INIntentsSupported</key>
+	<array>
+		<string>OrderFoodIntent</string>
+		<string>ReorderLastOrderIntent</string>
+		<string>SearchRestaurantIntent</string>
+		<string>CheckOrderStatusIntent</string>
+	</array>
+</dict>
+</plist>

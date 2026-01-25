@@ -1,0 +1,533 @@
+{
+  "menuItems": [
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440001",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Classic Cheeseburger",
+      "description": "Juicy beef patty with melted American cheese, fresh lettuce, tomato, pickles, and our special sauce on a toasted brioche bun",
+      "price": 12.99,
+      "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800",
+      "category": "Burgers",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 650,
+      "prepTime": 15,
+      "dietaryInfo": [],
+      "customizations": [
+        {
+          "id": "cust-001",
+          "name": "Patty Size",
+          "options": [
+            {"id": "opt-001", "name": "Single", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-002", "name": "Double", "additionalPrice": 4.00, "isAvailable": true},
+            {"id": "opt-003", "name": "Triple", "additionalPrice": 8.00, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        },
+        {
+          "id": "cust-002",
+          "name": "Add-ons",
+          "options": [
+            {"id": "opt-004", "name": "Bacon", "additionalPrice": 2.00, "isAvailable": true},
+            {"id": "opt-005", "name": "Avocado", "additionalPrice": 1.50, "isAvailable": true},
+            {"id": "opt-006", "name": "Extra Cheese", "additionalPrice": 1.00, "isAvailable": true},
+            {"id": "opt-007", "name": "Fried Egg", "additionalPrice": 1.50, "isAvailable": true}
+          ],
+          "isRequired": false,
+          "maxSelections": 4
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440002",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Bacon BBQ Burger",
+      "description": "Smoky BBQ sauce, crispy bacon, onion rings, cheddar cheese, and jalapeños on a pretzel bun",
+      "price": 14.99,
+      "imageURL": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=800",
+      "category": "Burgers",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 820,
+      "prepTime": 18,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440003",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Crispy Chicken Sandwich",
+      "description": "Buttermilk-fried chicken breast, coleslaw, pickles, and spicy mayo on a potato bun",
+      "price": 11.99,
+      "imageURL": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800",
+      "category": "Sandwiches",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 580,
+      "prepTime": 15,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440004",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Loaded Fries",
+      "description": "Crispy fries topped with cheese sauce, bacon bits, green onions, and sour cream",
+      "price": 8.99,
+      "imageURL": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800",
+      "category": "Sides",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 450,
+      "prepTime": 10,
+      "dietaryInfo": ["Vegetarian"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440005",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Onion Rings",
+      "description": "Beer-battered onion rings served with ranch dipping sauce",
+      "price": 6.99,
+      "imageURL": "https://images.unsplash.com/photo-1639024471283-03518883512d?w=800",
+      "category": "Sides",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 380,
+      "prepTime": 8,
+      "dietaryInfo": ["Vegetarian"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440006",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Chocolate Milkshake",
+      "description": "Thick and creamy chocolate milkshake made with premium ice cream",
+      "price": 5.99,
+      "imageURL": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800",
+      "category": "Drinks",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 520,
+      "prepTime": 5,
+      "dietaryInfo": ["Vegetarian"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440011",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Margherita Pizza",
+      "description": "Fresh mozzarella, San Marzano tomatoes, basil, and extra virgin olive oil on our signature crust",
+      "price": 16.99,
+      "imageURL": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800",
+      "category": "Pizzas",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 280,
+      "prepTime": 20,
+      "dietaryInfo": ["Vegetarian"],
+      "customizations": [
+        {
+          "id": "cust-010",
+          "name": "Size",
+          "options": [
+            {"id": "opt-020", "name": "Medium (12\")", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-021", "name": "Large (16\")", "additionalPrice": 4.00, "isAvailable": true},
+            {"id": "opt-022", "name": "Family (20\")", "additionalPrice": 8.00, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        },
+        {
+          "id": "cust-011",
+          "name": "Crust",
+          "options": [
+            {"id": "opt-023", "name": "Classic", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-024", "name": "Thin Crust", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-025", "name": "Stuffed Crust", "additionalPrice": 3.00, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440012",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Pepperoni Supreme",
+      "description": "Loaded with pepperoni, Italian sausage, mushrooms, peppers, and extra mozzarella",
+      "price": 19.99,
+      "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800",
+      "category": "Pizzas",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 350,
+      "prepTime": 22,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440013",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Garlic Breadsticks",
+      "description": "Freshly baked breadsticks brushed with garlic butter and parmesan",
+      "price": 6.99,
+      "imageURL": "https://images.unsplash.com/photo-1619535860434-cf9b902670b1?w=800",
+      "category": "Appetizers",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 220,
+      "prepTime": 10,
+      "dietaryInfo": ["Vegetarian"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440021",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Salmon Sashimi",
+      "description": "8 pieces of premium Atlantic salmon, thinly sliced and served with wasabi and ginger",
+      "price": 18.99,
+      "imageURL": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800",
+      "category": "Sashimi",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 180,
+      "prepTime": 10,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440022",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Dragon Roll",
+      "description": "Eel and cucumber inside, topped with avocado and unagi sauce",
+      "price": 16.99,
+      "imageURL": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800",
+      "category": "Specialty Rolls",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 320,
+      "prepTime": 15,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440023",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Spicy Tuna Roll",
+      "description": "Fresh tuna mixed with spicy mayo, cucumber, and topped with sesame seeds",
+      "price": 12.99,
+      "imageURL": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800",
+      "category": "Classic Rolls",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 250,
+      "prepTime": 12,
+      "dietaryInfo": ["Spicy"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440031",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Carne Asada Tacos",
+      "description": "Three corn tortillas filled with grilled steak, onions, cilantro, and salsa verde",
+      "price": 13.99,
+      "imageURL": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=800",
+      "category": "Tacos",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 420,
+      "prepTime": 12,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": [
+        {
+          "id": "cust-030",
+          "name": "Salsa Level",
+          "options": [
+            {"id": "opt-050", "name": "Mild", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-051", "name": "Medium", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-052", "name": "Hot", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-053", "name": "Extra Hot", "additionalPrice": 0, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440032",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Chicken Burrito",
+      "description": "Large flour tortilla stuffed with grilled chicken, rice, beans, cheese, sour cream, and guacamole",
+      "price": 12.99,
+      "imageURL": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800",
+      "category": "Burritos",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 780,
+      "prepTime": 15,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440033",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Guacamole & Chips",
+      "description": "Fresh made guacamole with crispy tortilla chips",
+      "price": 8.99,
+      "imageURL": "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?w=800",
+      "category": "Appetizers",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 280,
+      "prepTime": 8,
+      "dietaryInfo": ["Vegan", "Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440041",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Pad Thai",
+      "description": "Rice noodles stir-fried with shrimp, tofu, bean sprouts, peanuts, and tamarind sauce",
+      "price": 14.99,
+      "imageURL": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800",
+      "category": "Noodles",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 520,
+      "prepTime": 18,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": [
+        {
+          "id": "cust-040",
+          "name": "Protein",
+          "options": [
+            {"id": "opt-060", "name": "Shrimp", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-061", "name": "Chicken", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-062", "name": "Tofu", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-063", "name": "Beef", "additionalPrice": 2.00, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440042",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Green Curry",
+      "description": "Creamy coconut green curry with bamboo shoots, bell peppers, and Thai basil",
+      "price": 15.99,
+      "imageURL": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800",
+      "category": "Curries",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 480,
+      "prepTime": 20,
+      "dietaryInfo": ["Spicy"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440051",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Chicken Shawarma Plate",
+      "description": "Marinated chicken with rice, hummus, salad, and warm pita bread",
+      "price": 16.99,
+      "imageURL": "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=800",
+      "category": "Plates",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 620,
+      "prepTime": 18,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440052",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440006",
+      "name": "Falafel Wrap",
+      "description": "Crispy falafel with hummus, tahini, pickled vegetables, and fresh herbs",
+      "price": 11.99,
+      "imageURL": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800",
+      "category": "Wraps",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 450,
+      "prepTime": 15,
+      "dietaryInfo": ["Vegan"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440061",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "Pho Bo",
+      "description": "Traditional beef pho with rice noodles, rare steak, brisket, and fresh herbs",
+      "price": 14.99,
+      "imageURL": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800",
+      "category": "Pho",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 420,
+      "prepTime": 15,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": [
+        {
+          "id": "cust-060",
+          "name": "Size",
+          "options": [
+            {"id": "opt-080", "name": "Regular", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-081", "name": "Large", "additionalPrice": 3.00, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440062",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440007",
+      "name": "Banh Mi",
+      "description": "Vietnamese sandwich with grilled pork, pickled vegetables, cilantro, and jalapeños",
+      "price": 10.99,
+      "imageURL": "https://images.unsplash.com/photo-1600454309261-3dc0cdc04ddd?w=800",
+      "category": "Sandwiches",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 380,
+      "prepTime": 12,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440071",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440008",
+      "name": "Butter Chicken",
+      "description": "Tender chicken in a rich, creamy tomato-based curry sauce",
+      "price": 16.99,
+      "imageURL": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800",
+      "category": "Curries",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 550,
+      "prepTime": 20,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440072",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440008",
+      "name": "Chicken Biryani",
+      "description": "Fragrant basmati rice layered with spiced chicken and caramelized onions",
+      "price": 17.99,
+      "imageURL": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800",
+      "category": "Rice",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 680,
+      "prepTime": 25,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440081",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440009",
+      "name": "Smoked Brisket Plate",
+      "description": "Slow-smoked beef brisket with two sides and Texas toast",
+      "price": 22.99,
+      "imageURL": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800",
+      "category": "Plates",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 850,
+      "prepTime": 15,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": [
+        {
+          "id": "cust-080",
+          "name": "Side 1",
+          "options": [
+            {"id": "opt-100", "name": "Coleslaw", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-101", "name": "Mac & Cheese", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-102", "name": "Baked Beans", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-103", "name": "Cornbread", "additionalPrice": 0, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        },
+        {
+          "id": "cust-081",
+          "name": "Side 2",
+          "options": [
+            {"id": "opt-104", "name": "Coleslaw", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-105", "name": "Mac & Cheese", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-106", "name": "Baked Beans", "additionalPrice": 0, "isAvailable": true},
+            {"id": "opt-107", "name": "Cornbread", "additionalPrice": 0, "isAvailable": true}
+          ],
+          "isRequired": true,
+          "maxSelections": 1
+        }
+      ]
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440082",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440009",
+      "name": "Baby Back Ribs",
+      "description": "Full rack of tender baby back ribs with our signature BBQ sauce",
+      "price": 26.99,
+      "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+      "category": "Plates",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 920,
+      "prepTime": 18,
+      "dietaryInfo": [],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440091",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Acai Bowl",
+      "description": "Blended acai topped with granola, fresh berries, banana, and honey",
+      "price": 12.99,
+      "imageURL": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800",
+      "category": "Bowls",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 380,
+      "prepTime": 8,
+      "dietaryInfo": ["Vegan", "Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440092",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Grilled Chicken Salad",
+      "description": "Mixed greens, grilled chicken, avocado, cherry tomatoes, and balsamic vinaigrette",
+      "price": 14.99,
+      "imageURL": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
+      "category": "Salads",
+      "isAvailable": true,
+      "isPopular": false,
+      "calories": 320,
+      "prepTime": 12,
+      "dietaryInfo": ["Gluten-Free"],
+      "customizations": []
+    },
+    {
+      "id": "660e8400-e29b-41d4-a716-446655440093",
+      "restaurantId": "550e8400-e29b-41d4-a716-446655440010",
+      "name": "Green Smoothie",
+      "description": "Spinach, kale, banana, mango, and coconut water",
+      "price": 7.99,
+      "imageURL": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=800",
+      "category": "Drinks",
+      "isAvailable": true,
+      "isPopular": true,
+      "calories": 180,
+      "prepTime": 5,
+      "dietaryInfo": ["Vegan", "Gluten-Free"],
+      "customizations": []
+    }
+  ]
+}
